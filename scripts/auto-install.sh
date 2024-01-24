@@ -4,7 +4,7 @@ sysThemeNames=("'Pop'" "'Pop-dark'" "'Pop-light'" "'Yaru'" "'Yaru-dark'" "'Yaru-
 themeNames=("pop" "pop" "pop" "yaru" "yaru" "yaru" "maia" "maia")
 
 firefoxInstallationPaths=(
-    ~/.var/app/one.ablaze.floorp/.floorp
+    ~/.floorp
 )
 
 currentTheme=$(gsettings get org.gnome.desktop.interface gtk-theme ) || currentTheme=""
