@@ -46,7 +46,7 @@ To install this theme, you can run this command, which uses *curl* to download a
 > **Warning**: Always be careful when running scripts from the Internet.
 
 ```sh
-curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/floorp-gnome-theme/master/scripts/install-by-curl.sh | bash
+curl -s -o- https://raw.githubusercontent.com/Aturex1/floorp-gnome-theme/master/scripts/install-by-curl.sh | bash
 ```
 
 ## Installation scripts
