@@ -15,6 +15,7 @@ This theme follows latest GNOME Adwaita style.
 ### Disclaimer:
 
 **Only the auto install script and flatpak installations are supported!!**
+**The curl installation is currently not working!**
 
 > ### Disclaimer:
 > Be aware that this theme might do things that are not supported by upstream Floorp. If you face an issue while using this theme, report it here first or test if it is reproducible in vanilla Floorp.
@@ -44,6 +45,8 @@ We also have the `beta` and `nightly` branches for fixes only applicable to the 
 To install this theme, you can run this command, which uses *curl* to download a script that will also download the latest released version of the theme (not the master version) and run the **auto-install** script for you.
 
 > **Warning**: Always be careful when running scripts from the Internet.
+
+# **This won't work**
 
 ```sh
 curl -s -o- https://raw.githubusercontent.com/Aturex1/floorp-gnome-theme/master/scripts/install-by-curl.sh | bash
