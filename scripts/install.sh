@@ -79,10 +79,10 @@ function saveProfile(){
 
 	echo "Set configuration to user.js file" >&2
 
-	mapfile -t theme_prefs < <( grep "user_pref" chrome/firefox-gnome-theme/configuration/user.js )
-	mapfile -t theme_prefs_unvalued < <( grep "user_pref" chrome/firefox-gnome-theme/configuration/user.js|cut -d'"' -f 2 )
+	mapfile -t theme_prefs < <( grep "user_pref" chrome/floorp-gnome-theme/configuration/user.js )
+	mapfile -t theme_prefs_unvalued < <( grep "user_pref" chrome/floorp-gnome-theme/configuration/user.js|cut -d'"' -f 2 )
 	if [ ! -f "user.js" ]; then
-		mv chrome/firefox-gnome-theme/configuration/user.js .
+		mv chrome/floorp-gnome-theme/configuration/user.js .
 	else
 		cp user.js user.js.bak
 		OLDIFS=$IFS
