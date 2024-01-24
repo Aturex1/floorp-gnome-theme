@@ -12,6 +12,10 @@
 
 This theme follows latest GNOME Adwaita style.
 
+### Disclaimer:
+
+**Only the auto install script and flatpak installations are supported!!**
+
 > ### Disclaimer:
 > Be aware that this theme might do things that are not supported by upstream Floorp. If you face an issue while using this theme, report it here first or test if it is reproducible in vanilla Floorp.
 >
