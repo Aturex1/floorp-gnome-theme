@@ -14,7 +14,7 @@ This theme follows latest GNOME Adwaita style.
 
 ### Disclaimer:
 
-**Only the auto install script and flatpak installations are supported!!**
+**Only the auto install script and no sandbox installations are supported (like flatpak)!! Your directory for floorp must be ~/.floorp!**
 **The curl installation is currently not working!**
 
 > ### Disclaimer:
